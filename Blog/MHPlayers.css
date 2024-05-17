@@ -1,0 +1,100 @@
+/*==========
+Body
+====*/
+body{
+    background-image: url('../Blog/Images/background.jpg');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+h2{
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+    font-size:xx-large;   
+}
+/*==========
+Navigator
+====*/
+main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-nav a:hover {
+    background-color: #f0f0f0;
+}
+
+nav{
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size:xx-large;
+}
+
+.navigator img.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.data-block{
+    margin-bottom: 3rem;
+}
+
+/*=======
+Players
+=====*/
+
+
+
+.players{
+    float: left;
+    width: calc(25% - 10%);
+    margin-right: 5%;
+    text-align: center;
+    padding-left: 80px;
+
+}
+    .players:last-child{
+        margin-right: 0;
+    }
+
+    .players a {
+        align-self: flex-end; /* Aligns the anchor to the end */
+        text-decoration: none;
+        color: black;
+        font-size: 1.2em;
+    }
+
+    .players img {
+        width: 100%; 
+        height: auto; 
+        max-height: 200px; 
+        object-fit: cover; 
+        vertical-align: middle; 
+    }

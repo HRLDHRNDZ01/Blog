@@ -1,0 +1,78 @@
+body{
+    background-image: url('../Blog/Images/background.jpg');
+    background-size: cover;
+}
+
+h1{
+    text-align: center;
+    font-size: 3em;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav li {
+    display: inline;
+}
+
+.main-nav a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.main-nav a:hover {
+    background-color: #f0f0f0;
+}
+
+.navigator nav {
+    background-color: black;
+    border-radius: 20px;
+    
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    font-size:xx-large;
+}
+
+.navigator img.logo{
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+nav div{
+    padding-bottom: 10px;
+}
+
+.sidebar-content {
+    position: absolute;
+    top: 0;
+    left: 200px; /* Width of the sidebar */
+    width: calc(100% - 200px); /* Adjust based on sidebar width */
+    transition: transform 0.3s ease;
+}
+
+.content-item {
+    display: none;
+}
+
+.show-content {
+    display: block;
+}
+
+.sidebar {
+    background-color: red;
+    width: 180px;
+    font-size: 1.5rem;
+    padding: 5px;
+}
